@@ -5,7 +5,10 @@
  ![visitors](https://visitor-badge.glitch.me/badge?page_id=cutshadows.cutshadows)
 
 </p>
+ <div align="left">
 
+- ⚡ Fun fact: ...<br>
+</div>
 <br><br>
 
 
