@@ -1,15 +1,5 @@
 <img width="41%" align="right" alt="Github" src="https://github.githubassets.com/images/modules/notifications/saved-blank-dark.svg" />
 <h1> Hi! <img align="center" src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px> </h1>
-<p align='center'>
-
- ![visitors](https://visitor-badge.glitch.me/badge?page_id=cutshadows.cutshadows)
-
-</p>
- <div align="left">
-
-- ⚡ Fun fact: ...<br>
-</div>
-<br><br>
 
 
 
