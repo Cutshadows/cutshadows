@@ -1,0 +1,1393 @@
+{
+	"login": {
+		"inputs": {
+			"email": {
+				"label": "Email",
+				"required": {
+					"email": "Email is required",
+					"min": "Password must be at least 8 characters"
+				}
+			},
+			"password": {
+				"label": "Password",
+				"required": {
+					"password": "Password is required"
+				}
+			}
+		},
+		"text": {
+			"forgotPassword": "Forgot Password?",
+			"logIn": "Log In",
+			"aintAccount": "Don't have an account yet?",
+			"signUp": "Sign Up"
+		},
+		"firebaseAuthError": "There was an error signing in. Please try again.",
+		"loginForm": {
+			"unableToSignIn": "Unable to Sign In"
+		},
+		"signUpForm": {
+			"fillFields": {
+				"title": "Fill the fields",
+				"message": "Please enter email and password."
+			},
+			"termsRequired": {
+				"title": "Terms & Conditions",
+				"message": "You must accept the terms and conditions to sign up."
+			},
+			"verificationRequired": {
+				"title": "Verification Required",
+				"message": "A verification email has been sent to {{email}}. Please verify your email address before logging in."
+			},
+			"signUpFailed": "Sign Up Failed"
+		},
+		"stepSignUpForm": {
+			"fillFields": {
+				"title": "Error",
+				"message": "Please fill in all fields"
+			},
+			"welcome": {
+				"title": "Welcome!",
+				"message": "Hi {{name}}! Please check your email to verify your account."
+			},
+			"contractData": {
+				"title": "👋 Hi {{username}}",
+				"message": "I’d like to book your service {{title}}. \n You can accept if it works for you, or message me if you have any questions before we move forward! \n\n Looking forward to working with you!\n",
+				"messageDetail": "I'd like to book your service {{title}}.",
+				"messageService": "I'm interested in your service {{serviceTitle}}."
+			},
+			"signUpFailed": "Sign Up Failed",
+			"termsRequired": {
+				"title": "Terms & Conditions",
+				"message": "You must accept the terms and conditions to continue."
+			}
+		},
+		"emailVerification": {
+			"catchError": {
+				"title": "Error",
+				"message": "{{message}}."
+			},
+			"emailSent": {
+				"title": "Email Sent",
+				"message": "A new verification email has been sent to {{email}}."
+			},
+			"success": {
+				"title": "Success",
+				"message": "Your email has been verified!"
+			},
+			"notVerified": {
+				"title": "Not Verified",
+				"message": "Your email is still not verified. Please check your inbox."
+			},
+			"text": {
+				"loading": "Loading user data...",
+				"verifyEmail": "Verify Your Email",
+				"sentTo": "We've sent a verification email to:",
+				"checkingSpam": "Please check your inbox and click the verification link.",
+				"resendVerification": "Resend Verification Email",
+				"IverifiedEmail": "I've Verified My Email",
+				"SignOut": "Sign Out"
+			}
+		}
+	},
+	"home": {
+		"welcome": "Welcome to your account",
+		"header": {
+			"title": "The service you need, close to you.",
+			"subtitle": "Connect with local professionals in minutes."
+		},
+		"sections": {
+			"quickCategories": "Quick categories",
+			"favorites": "Your favorites"
+		},
+		"escrow": {
+			"title": "Secure payment via escrow.",
+			"body": "Fixxyapp uses secure escrow payments to protect you."
+		},
+		"requestCta": {
+			"title": "Need something specific?",
+			"subtitle": "Post a request, get quotes from local pros."
+		},
+		"favorites": {
+			"find": "Find"
+		},
+		"empty": {
+			"title": "No services available",
+			"description": "Check back soon."
+		},
+		"cta": {
+			"getStarted": "Get started"
+		},
+		"ad": {
+			"badge": "From Fixxy",
+			"learnMore": "Learn more"
+		}
+	},
+	"vendorView": {
+		"welcome": "Welcome, {{username}}!",
+		"vendor": "Vendor",
+		"customer": "Customer",
+		"description": "Your professional dashboard for managing services and bookings.",
+		"category": "Category",
+		"yourProfile": "Your profile",
+		"vendorComplete": "Vendor Setup Complete",
+		"completeMessage": "Your vendor profile has been created.",
+		"yearExp": "Years Exp.",
+		"editService": "Edit Service",
+		"pauseService": "Pause Service",
+		"activateService": "Activate Service"
+	},
+	"app": {
+		"notifications": {
+			"disabled": {
+				"title": "Notifications disabled",
+				"message": "Enable notifications to stay updated."
+			}
+		}
+	},
+	"feedMap": {
+		"alerts": {
+			"locationServicesOff": {
+				"title": "Location services off",
+				"message": "Turn on Location services to use nearby results. Showing a default location instead."
+			}
+		}
+	},
+	"homeScreen": {
+		"locationServicesOff": {
+			"title": "Location services off",
+			"message": "Turn on Location services to use nearby results. Showing a default location instead."
+		}
+	},
+	"onboarding": {
+		"stepOne": {
+			"title": "Congrats {{userName}}!! you are all set`",
+			"description": "We're excited to have you here! Let's find out how we can help you today."
+		},
+		"welcome": {
+			"failedToUpdateProfile": {
+				"title": "Error",
+				"message": "Failed to update profile. Please try again."
+			}
+		}
+	},
+	"services": {
+		"serviceForm": {
+			"validationError": {
+				"title": "Error",
+				"message": "{{error}} Fix the errors and please try again."
+			},
+			"createError": {
+				"title": "Error",
+				"message": "There was an error creating your service. Please try again."
+			},
+			"updateService": {
+				"title": "Error",
+				"message": "{{error}} Please try again."
+			}
+		},
+		"location": {
+			"notAvailable": "Location not available"
+		}
+	},
+	"imagePicker": {
+		"invalidSelection": {
+			"oneVideoPerPost": {
+				"title": "Invalid selection",
+				"message": "You can only select one video per post."
+			},
+			"existingVideo": {
+				"title": "Invalid selection",
+				"message": "This post already contains a video. Remove it before adding other media."
+			},
+			"videoWithImages": {
+				"title": "Invalid selection",
+				"message": "When attaching a video you cannot attach other images."
+			}
+		},
+		"videoTooLong": {
+			"title": "Video too long",
+			"message": "Please select a video of 60 seconds or less."
+		},
+		"videoTooLarge": {
+			"title": "Video too large",
+			"message": "Please select a video smaller than 100 MB."
+		},
+		"tooManyImages": {
+			"title": "Too many images",
+			"message": "You can attach up to {{maxImages}} images per post."
+		},
+		"maximumImages": {
+			"title": "Maximum Images",
+			"message": "You can only select up to {{maxImages}} images"
+		}
+	},
+	"emailVerificationBanner": {
+		"unavailableResend": {
+			"title": "Unavailable",
+			"message": "Please sign in again to resend the verification email."
+		},
+		"emailSent": {
+			"title": "Email Sent",
+			"message": "A verification email has been sent to {{email}}."
+		},
+		"errorResend": {
+			"title": "Error",
+			"message": "Unable to resend verification email."
+		},
+		"unavailableRefresh": {
+			"title": "Unavailable",
+			"message": "Please sign in again to refresh your verification status."
+		},
+		"verified": {
+			"title": "Verified",
+			"message": "Your email has been verified."
+		},
+		"notVerified": {
+			"title": "Not Verified",
+			"message": "Your email is still not verified. Please check your inbox."
+		},
+		"errorRefresh": {
+			"title": "Error",
+			"message": "Unable to refresh your verification status."
+		}
+	},
+	"postsGrid": {
+		"loadError": {
+			"title": "Error",
+			"message": "Unable to load posts"
+		}
+	},
+	"reportBlockButton": {
+		"dialog": {
+			"title": "Report & Block",
+			"anyProblem": "Any problem? Report this profile & block user."
+		},
+		"confirm": {
+			"title": "Report & Block User",
+			"message": "Are you sure you want to report and block this user? This action cannot be undone."
+		},
+		"success": {
+			"title": "Success",
+			"message": "User has been reported and blocked successfully"
+		},
+		"error": {
+			"title": "Error",
+			"message": "Failed to report and block user. Please try again."
+		}
+	},
+	"feedPostFlow": {
+		"created": {
+			"title": "Post Created Successfully",
+			"message": "Your post {{title}} is now available."
+		},
+		"noContent": {
+			"title": "Please add content",
+			"message": "Please add text, an image, or a video to your post."
+		},
+		"postError": {
+			"title": "Error",
+			"message": "There was an error with your post. Please try again."
+		},
+		"createError": {
+			"title": "Error",
+			"message": "There was an error creating your post. Please try again."
+		},
+		"genericPlease": {
+			"message": "Please enter a {{object}}"
+		},
+		"title": "Create Post",
+		"step1": {
+			"question": "What service do you need?",
+			"titleLabel": "Title - Eg: \"Fix a leaking sink\"",
+			"descriptionLabel": "Description - Eg: \"When I turn on the tap water...\""
+		},
+		"step2": {
+			"question": "Choose the type of service",
+			"search": "Search category..."
+		},
+		"step3": {
+			"question": "Where should the service happen?",
+			"placeholder": "Address, City or Postcode"
+		},
+		"step4": {
+			"question": "How do you want to set the budget?",
+			"fixed": {
+				"title": "Fixed Price",
+				"description": "Pay one set amount for the job. Great for jobs with a clear scope."
+			},
+			"hourly": {
+				"title": "Hourly Rate",
+				"description": "Charge by the hour. Perfect for ongoing or flexible work."
+			},
+			"negotiable": {
+				"title": "Negotiable",
+				"description": "Keep it flexible—vendors will contact you with quotes."
+			}
+		},
+		"step5": {
+			"questionFixed": "How much would you like to pay for this job?",
+			"questionHourly": "What's your hourly budget?"
+		},
+		"step6": {
+			"title": "Add images to showcase your service",
+			"subtitle": "Upload up to 6 images. The first image will be shown as the main preview."
+		},
+		"errors": {
+			"titleRequired": "Please enter a title",
+			"descriptionRequired": "Please enter a description",
+			"categoryRequired": "Please select a category",
+			"addressRequired": "Please enter an address",
+			"priceRequired": "Please enter a valid price"
+		}
+	},
+	"chatHelpers": {
+		"startChatError": {
+			"title": "Error",
+			"message": "Failed to start chat. Please try again."
+		}
+	},
+	"favorites": {
+		"removed": {
+			"title": "Removed from Saved"
+		},
+		"added": {
+			"title": "Added to Saved"
+		},
+		"error": {
+			"title": "Error",
+			"message": "There was an error updating your saved items. Please try again."
+		}
+	},
+	"serviceDetailFlow": {
+		"saveError": {
+			"title": "Error",
+			"message": "Failed to save. Please try again."
+		},
+		"success": {
+			"title": "Service Created Successfully",
+			"message": "Your service {{title}} has been created"
+		}
+	},
+	"authHelper": {
+		"loginRequired": {
+			"title": "Login Required"
+		},
+		"emailVerificationRequired": {
+			"title": "Email Verification Required"
+		}
+	},
+	"qualificationFlow": {
+		"saveError": {
+			"title": "Error",
+			"message": "Failed to save. Please try again."
+		},
+		"submitButtonText": "Save",
+		"modalTitle": "Certification or License",
+		"questionTitle": {
+			"main": "Certification or License",
+			"subtitle": "For example: 'Licensed electrician' or 'HVAC certified'."
+		},
+		"fields": {
+			"titleLabel": "Title",
+			"descriptionLabel": "Description (optional)"
+		},
+		"validation": {
+			"titleRequired": "Please enter a title."
+		}
+	},
+	"experienceFlow": {
+		"saveError": {
+			"title": "Error",
+			"message": "Failed to save. Please try again."
+		},
+		"submitButtonText": "Save",
+		"title": {
+			"main": "How many years of experience do you have?",
+			"subtitle": "This helps clients understand your level of expertise."
+		},
+		"validation": {
+			"invalidRange": "Please enter a valid number between 0 and 99."
+		}
+	},
+	"updateProfile": {
+		"imagePickError": {
+			"title": "Error",
+			"message": "Failed to pick image. Please try again."
+		},
+		"updateSuccess": {
+			"title": "Success",
+			"message": "Profile updated successfully!"
+		},
+		"updateError": {
+			"title": "Error",
+			"message": "Failed to update profile. Please try again."
+		}
+	},
+	"payouts": {
+		"onboardingError": {
+			"title": "Error",
+			"message": "Unable to start payout onboarding. Please try again later."
+		}
+	},
+	"contractDetail": {
+		"reviewSuccess": {
+			"title": "Success",
+			"message": "Your review has been submitted!"
+		},
+		"reviewError": {
+			"title": "Error",
+			"message": "Failed to submit review. Please try again."
+		},
+		"contractUpdateSuccess": {
+			"title": "Success",
+			"message": "Contract has been updated to {{status}} successfully!"
+		},
+		"contractUpdateError": {
+			"title": "Error",
+			"message": "Failed to update contract status. Please try again."
+		}
+	},
+	"transactionDetail": {
+		"requestRefund": {
+			"title": "Request Refund",
+			"message": "Are you sure you want to request a refund for this transaction?"
+		},
+		"refundRequested": {
+			"title": "Refund Requested",
+			"message": "The refund request was submitted successfully."
+		},
+		"refundFailed": {
+			"title": "Refund Request Failed",
+			"message": "Please try again."
+		}
+	},
+	"forgotPassword": {
+		"emptyEmail": {
+			"title": "Error",
+			"message": "Please enter your email address"
+		},
+		"resetSuccess": {
+			"title": "Success",
+			"message": "Password reset email sent. Please check your inbox."
+		}
+	},
+	"account": {
+		"updateSuccess": {
+			"title": "Success",
+			"message": "Profile updated successfully!"
+		},
+		"updateError": {
+			"title": "Error",
+			"message": "Failed to update profile. Please try again."
+		},
+		"supportUnavailable": {
+			"title": "Support",
+			"message": "Unable to open an email app right now. Please contact us at {{email}}"
+		},
+		"deleteAccount": {
+			"title": "Delete Account",
+			"message": "Are you sure you want to delete your account? This action cannot be undone."
+		},
+		"reauthRequired": {
+			"title": "Re-authentication Required",
+			"message": "To delete your account, you need to re-authenticate."
+		},
+		"accountDeleted": {
+			"title": "Account Deleted",
+			"message": "Your account has been successfully deleted."
+		},
+		"reauthError": {
+			"title": "Re-authentication Required",
+			"message": "For security reasons, please sign out and sign in again before deleting your account."
+		},
+		"authRequired": "You should be logged in to access this section.",
+		"profileUpdated": "Profile updated successfully!",
+		"profileUpdateFailed": "Failed to update profile. Please try again.",
+		"banner": {
+			"title": "Hello, {{name}}"
+		},
+		"emailVerification": {
+			"title": "Your account needs email verification",
+			"body": "Verify your email before using messages, notifications, and other protected actions."
+		},
+		"actions": {
+			"profile": {
+				"title": "Profile",
+				"subtitle": "Edit your personal information"
+			},
+			"saved": {
+				"title": "Saved",
+				"subtitle": "View your saved posts and services"
+			},
+			"bookings": {
+				"title": "My Bookings",
+				"subtitle": "Review your past and current bookings"
+			},
+			"offerServices": {
+				"title": "Offer your Services",
+				"subtitle": "Make extra revenue by listing your services in the marketplace. Get started today."
+			},
+			"applications": {
+				"subtitle": "Track jobs you've applied to"
+			},
+			"payments": {
+				"title": "Payments",
+				"subtitle": "Configure payments and view history"
+			}
+		}
+	},
+	"chat": {
+		"messageSent": {
+			"title": "Messaged Sent",
+			"message": "They will be notified and can reply to coordinate the job details."
+		},
+		"inviteSent": {
+			"title": "Messaged Sent",
+			"message": "The user was invited to the apply"
+		},
+		"contractUpdated": {
+			"title": "Success",
+			"message": "Contract has been updated successfully!"
+		},
+		"contractUpdateError": {
+			"title": "Error",
+			"message": "Failed to update contract status. Please try again."
+		},
+		"reviewSuccess": {
+			"title": "Success",
+			"message": "Your review has been submitted!"
+		},
+		"reviewError": {
+			"title": "Error",
+			"message": "Failed to submit review. Please try again."
+		},
+		"paymentNotAvailable": {
+			"title": "Payment Not Available"
+		}
+	},
+	"vendorOnboarding": {
+		"maximumPhotos": {
+			"title": "Maximum photos",
+			"message": "You can upload up to 6 photos."
+		},
+		"selectCategory": {
+			"title": "Select a category",
+			"message": "Choose the main category that best fits your vendor profile."
+		},
+		"completeProfile": {
+			"title": "Complete your profile",
+			"message": "Add a title and description before continuing."
+		},
+		"addCity": {
+			"title": "Add your city",
+			"message": "Enter the city or location where you can work."
+		},
+		"missingUser": {
+			"title": "Missing user",
+			"message": "Please sign in again before saving your vendor profile."
+		},
+		"saveError": {
+			"title": "Error",
+			"message": "There was an error saving your vendor profile. Please try again."
+		},
+		"photoRequired": {
+			"title": "Add at least one photo",
+			"message": "You need at least 1 photo of your work to appear in the feed and attract clients."
+		},
+		"atLeastfeed": "At least 1 photo is required to appear in the feed and get clients.",
+		"locationFallback": "Tap the map to set your location"
+	},
+	"comments": {
+		"loadError": {
+			"title": "Error",
+			"message": "Unable to load comments"
+		},
+		"sendError": {
+			"title": "Error",
+			"message": "Unable to send comment. Please try again."
+		}
+	},
+	"detailProfile": {
+		"servicePost": {
+			"pause": "Pause Service",
+			"publish": "Publish Service"
+		},
+		"cannotMessageSelf": {
+			"title": "Notice",
+			"message": "You cannot message yourself."
+		},
+		"cannotBookOwnService": {
+			"title": "Notice",
+			"message": "You cannot book your own service."
+		},
+		"bookingError": {
+			"title": "Error",
+			"message": "Unable to book this service. Please try again."
+		},
+		"updatingService": {
+			"title": "Updating Service",
+			"message": "Are you sure you want to {{action}} this service?"
+		},
+		"serviceUpdateSuccess": {
+			"title": "Success",
+			"message": "Service updated successfully"
+		},
+		"serviceUpdateError": {
+			"title": "Error",
+			"message": "Failed to update service."
+		},
+		"deleteQualification": {
+			"title": "Delete qualification",
+			"message": "Remove \"{{title}}\"?"
+		},
+		"deleteError": {
+			"title": "Error",
+			"message": "Failed to delete. Please try again."
+		},
+		"deleteService": {
+			"title": "Delete service",
+			"message": "Are you sure you want to delete this service?"
+		},
+		"deleteServiceError": {
+			"title": "Error",
+			"message": "Failed to delete service. Please try again."
+		},
+		"noData": {
+			"title": "Login or Signup to see it all",
+			"description": "Create an account or log in to view this professional's experience and reviews."
+		},
+		"inCity": " in "
+	},
+	"serviceFlow": {
+		"validationError": {
+			"title": "Error",
+			"message": "Fix the errors and please try again."
+		},
+		"createError": {
+			"title": "Error",
+			"message": "There was an error creating your service. Please try again."
+		},
+		"step": {
+			"progress": "Step {{step}} of {{maxStep}} - {{stepLabel}}"
+		}
+	},
+	"customMessage": {
+		"cannotOpenUrl": {
+			"title": "Cannot open URL: {{url}}"
+		}
+	},
+	"applicationDetail": {
+		"applySuccess": {
+			"title": "Success",
+			"message": "You have successfully applied for this job!"
+		},
+		"applyError": {
+			"title": "Error",
+			"message": "Failed to apply for this job. Please try again."
+		},
+		"contractCreated": {
+			"title": "Success",
+			"message": "Contract created successfully!"
+		},
+		"contractError": {
+			"title": "Error",
+			"message": "Failed to create contract. Please try again."
+		},
+		"chatError": {
+			"title": "Error",
+			"message": "Unable to start chat. Please try again."
+		},
+		"text": {
+			"jobsTaken": "Jobs Taken",
+			"profile": "View Profile",
+			"proposal": "Proposal",
+			"message": "Message",
+			"hire": "Hire",
+			"editApplication": "Edit Application"
+		}
+	},
+	"paymentFlow": {
+		"paymentTermsRequired": {
+			"title": "Payment Terms",
+			"message": "You must accept the payment terms to continue."
+		},
+		"invalidAmount": {
+			"title": "Invalid amount",
+			"message": "Please enter a valid amount greater than 0."
+		},
+		"paymentsUnavailable": {
+			"title": "Payments unavailable",
+			"message": "Payments are not available at the moment. Please try again later."
+		}
+	},
+	"postForm": {
+		"validationError": {
+			"title": "Error",
+			"message": "Fix the errors and please try again."
+		},
+		"createError": {
+			"title": "Error",
+			"message": "There was an error creating your post. Please try again."
+		}
+	},
+	"feedList": {
+		"confirmDelete": {
+			"title": "Confirm delete",
+			"message": "Are you sure you want to delete this post?"
+		}
+	},
+	"postFlow": {
+		"createError": {
+			"title": "Error",
+			"message": "Fix the errors and please try again."
+		}
+	},
+	"finishContractModal": {
+		"noStatus": {
+			"title": "Error",
+			"message": "Please select a status"
+		},
+		"noReason": {
+			"title": "Error",
+			"message": "Please provide a reason"
+		}
+	},
+	"detailJobPost": {
+		"applySuccess": {
+			"title": "Success",
+			"message": "You have successfully applied for this job!"
+		},
+		"applyError": {
+			"title": "Error",
+			"message": "Failed to apply for this job. Please try again."
+		},
+		"checkApplicationError": {
+			"title": "Error",
+			"message": "Failed to check application status"
+		},
+		"updateStatus": {
+			"title": "{{label}} Post",
+			"message": "Are you sure you want to {{label}} this post?"
+		},
+		"postUpdated": {
+			"title": "Post Updated",
+			"message": "Your post has been {{status}} successfully"
+		},
+		"verificationMessage": "Please verify your email before applying to a post.",
+		"verificationEmailBooking": "Please verify your email before booking a service.",
+		"postedTime": "Posted {{time}}",
+		"appliedTime": "Applied {{time}}",
+		"memberSince": "Member since {{time}}",
+		"budgetNegotiable": "Budget Negotiable",
+		"budgetNotSpecific": "Budget not specified",
+		"notSpecified": "Not Specified",
+		"statusOptions": {
+			"draft": "Draft",
+			"posted": "Posted",
+			"hired": "Hired",
+			"closed": "Closed",
+			"deleted": "Deleted"
+		},
+		"statusLabels": {
+			"open": "Publish",
+			"closed": "Close",
+			"deleted": "Delete",
+			"draft": "Draft"
+		},
+		"actions": {
+			"closePost": "Close Post",
+			"openPost": "Open Post",
+			"deletePost": "Delete Post"
+		}
+	},
+	"detailJobPostCustomer": {
+		"loadApplicantsError": {
+			"title": "Error",
+			"message": "Unable to load applicants. Please try again later."
+		},
+		"cannotEdit": {
+			"title": "Cannot Edit",
+			"message": "This post cannot be edited in its current status"
+		},
+		"updateStatus": {
+			"title": "{{label}} Post",
+			"message": "Are you sure you want to {{label}} this post?"
+		},
+		"postUpdated": {
+			"title": "Post Updated",
+			"message": "Your post has been {{status}} successfully"
+		}
+	},
+	"text": {
+		"banner": {
+			"payment": {
+				"title": "Vendor Features Available",
+				"message": "Switch to Vendor mode in your Profile to view earnings and configure payouts."
+			},
+			"emailVerification": {
+				"title": "Verify your email to continue",
+				"body": "Please verify your email address to access this section."
+			}
+		},
+		"buttons": {
+			"confirm": "Confirm",
+			"viewAll": "View All",
+			"logIn": "Log In",
+			"logInLink": "Log in",
+			"signUp": "Sign Up",
+			"signUpLink": "Sign up",
+			"signOut": "Sign Out",
+			"getStarted": "Get Started",
+			"getStartedExcl": "Get Started!",
+			"continue": "Continue",
+			"back": "Back",
+			"close": "Close",
+			"cancel": "Cancel",
+			"nextStep": "Next Step",
+			"message": "Message",
+			"hire": "Hire",
+			"apply": "Apply",
+			"readMore": "Read More",
+			"seeMore": "See more",
+			"seeMoreActivity": "See More Activity",
+			"edit": "Edit",
+			"delete": "Delete",
+			"home": "Home",
+			"more": "More",
+			"illDoItLater": "I'll do it later",
+			"orderAgain": "Order again",
+			"viewProfile": "View Profile",
+			"postJob": "Post Job",
+			"postAJob": "Post a Job",
+			"findProfessionals": "Find professionals",
+			"myServices": "My Services",
+			"createService": "Create Service",
+			"createYourRequest": "Create Your Request",
+			"editApplication": "Edit Application",
+			"downloadContract": "Download Contract",
+			"viewBookingReceipt": "View booking receipt",
+			"manageBooking": "Manage Booking",
+			"finishBooking": "Finish Booking",
+			"writeAReview": "Write a Review",
+			"becomeVendor": "Become a Vendor",
+			"editProfile": "Edit vendor profile",
+			"seeAvailablePosts": "See Available Posts",
+			"addImages": "Add Images",
+			"clearAllFilters": "Clear All Filters",
+			"seeAvailablePosts2": "See Available Posts",
+			"switchTo": "Switch to {{profile}}",
+			"shareBtnTitle": "FixxyApp Profile",
+			"downloadFixxApp": "Download FixxyApp for free from the",
+			"seeThisPostOn": "See this Post on FixxyApp",
+			"onFixxyApp": "{{username}} on FixxyApp",
+			"checkOutThisProfessional": "Check out {{username}} on FixxyApp.\n\nhttps://fixxyapp.com/profile/{{userUuid}}?goToProfile=Vendor",
+			"checkOutThisPost": "Check out this post on the User Profile FixxyApp!",
+			"budgetRange": "Budget Range",
+			"whatsneeded": "What is needed?",
+			"trySharingThisPost": "Try sharing this Post to get more visibility.",
+			"trackStatus": "Track your status and follow up with the client.",
+			"submitApplication": "Submit your application and connect with the client.",
+			"trackBtn": "Track",
+			"applyBtn": "Apply Now",
+			"applied": "Applied",
+			"pause": "Pause",
+			"activate": "Activate",
+			"applications": "Applications",
+			"updateProfile": "Update Profile",
+			"updating": "Updating...",
+			"myOrders": "My Orders",
+			"postedTrue": "Your post for {{name}} in {{city}} has been published. Workers should contact you asap.",
+			"servicesList": "{{serviceName}} should reach out with you asap.",
+			"startVendorStup": "Start vendor setup",
+			"addPhoto": "ADD PHOTO",
+			"officiallyVendor": "You're officially\n a vendor!",
+			"aliveProfile": "Your profile is live. Share it and start landing your first bookings.",
+			"howYouGetPaid": "How you'll get paid",
+			"addServices": "Add Services",
+			"addCertificationLicense": "Add Certification or License"
+		},
+		"tabs": {
+			"transactions": "Transactions",
+			"payouts": "Payouts"
+		},
+		"screenTitles": {
+			"verifyYourEmail": "Verify Your Email",
+			"allReviews": "All Reviews",
+			"paymentSuccessful": "Payment successful",
+			"resetPassword": "Reset Password",
+			"explore": "Explore",
+			"whereDoYouWork": "Where do you work?",
+			"yourPublicProfile": "Your public profile",
+			"whatsYourSpecialty": "What's your specialty?",
+			"whereWillYouGo": "Where you will go?",
+			"loadingMap": "Loading map...",
+			"reviews": "{count, plural, =1 {# review} other {# reviews}}",
+			"submitting": "Submitting...",
+			"submit": "Submit",
+			"images": "Images",
+			"tapDetails": "Tap to view details",
+			"whatDoYouWantToDo": "What do you want to do?",
+			"findYourCat": "Find your category",
+			"whatdoyouOffer": "What do you offer? Where do you work? What makes you the right person for the job?",
+			"showYourWork": "Show your work",
+			"adviceRealPhotos": "Real photos of your work build trust and win more bookings.",
+			"tipsPhotos": "Tips for better photos",
+			"useRealPhotos": "Use real photos of your own work",
+			"showBeforeResults": "Show before & after results",
+			"avoidPrivateLink": "Avoid private info like addresses"
+		},
+		"sectionTitles": {
+			"quickActions": "Quick Actions",
+			"servicesNearYou": "Services Near You",
+			"availableNearby": "Available Nearby",
+			"comments": "Comments",
+			"hiringSummary": "Hiring Summary",
+			"proposal": "Proposal",
+			"activity": "Activity",
+			"jobOffers": "Job Offers",
+			"noJobOffersYet": "No Job Offers yet",
+			"description": "Description",
+			"budget": "Budget",
+			"location": "Location",
+			"requirements": "Requirements",
+			"servicesOffered": "Services Offered",
+			"photos": "Photos",
+			"changePhoto": "Change Photo",
+			"myPortfolio": "My Portfolio",
+			"jobDetails": "Job Details",
+			"postedBy": "Posted By",
+			"allProviders": "All providers",
+			"certificationsLicenses": "Certifications & Licenses",
+			"serviceAreas": "Service Areas",
+			"topRatedNearYou": "Top rated near you",
+			"popularThisWeek": "Popular this week",
+			"whatYoullNeed": "What you'll need (3-5 min)",
+			"recentActivity": "Recent Activity",
+			"experienceLevel": "Experience Level",
+			"shareBtnTitle": {
+				"titleUser": "See {{username}} Job Offers",
+				"title": "FixxyApp Profile",
+				"message": "Check out this profile on FixxyApp!"
+			}
+		},
+		"formLabels": {
+			"search": "Search...",
+			"whatAreYouOffering": "What are you offering?",
+			"describeYourService": "Describe your service in detail",
+			"whatIsYourExperienceLevel": "What is your experience level?",
+			"additionalNotes": "Additional Notes (Optional)",
+			"whatBringsYouToFixxy": "What brings you to FixxyApp?",
+			"areYouOfferingService": "Are you offering a service?",
+			"setYourBudget": "Set your budget",
+			"whatAreYouLookingFor": "What are you specifically looking for?",
+			"describeTheProblem": "Describe the problem/details about your need",
+			"kindOfLevelNeeded": "What kind of level you need for the job?",
+			"setBudgetForJob": "Set a budget for the job",
+			"howLongForJob": "How long you think the job will take?",
+			"howOftenNeeded": "How often you need this job to be done?",
+			"howWouldYouLikeToPay": "How would you like to pay for the service?",
+			"name": "Name",
+			"placeholderName": "Enter your name"
+		},
+		"labels": {
+			"price": "Price",
+			"address": "Address",
+			"payment": "Payment",
+			"termsAndConditions": "Terms & Conditions",
+			"termsLink": "Terms and Conditions",
+			"total": "Total",
+			"servicePrice": "Service Price",
+			"onlinePaymentFee": "Online Payment Fee",
+			"from": "From",
+			"to": "To",
+			"iAcceptThe": "I accept the ",
+			"savedFrom": "Saved from:",
+			"directWithPerson": "Direct with the person",
+			"securePaymentSupport": "Secure payment & support",
+			"amountToPay": "Amount to pay",
+			"processing": "Processing",
+			"available": "Available",
+			"contractAmount": "Contract Amount:",
+			"applicationAmount": "Application Amount:",
+			"applicant": "Applicant:",
+			"originalProposal": "Original Proposal:",
+			"serviceLocation": "Service Location",
+			"agreedPrice": "Agreed Price",
+			"agreementDetails": "Agreement Details",
+			"fixedPrice": "Fixed Price",
+			"hourlyRate": "Hourly Rate",
+			"bookings": "Bookings",
+			"hourly": "Hourly",
+			"fixed": "Fixed",
+			"fixedJobForm": "Fixed: {{from}}",
+			"timelineGeneric": "Timeline {{flag}}",
+			"flagNegotiable": "Negotiable",
+			"flagNoSpecified": "not specified",
+			"levelEntry": "Entry Level",
+			"levelIntermidiate": "Intermediate",
+			"levelExpert": "Expert Level",
+			"longTerm": "Long Term Project",
+			"shortTerm": "Short Term Project",
+			"serviceBooked": "Service Booked",
+			"securePaymentViaFixxy": "SECURE PAYMENT VIA FIXXY",
+			"postedYesterday": "Posted Yesterday",
+			"setSinglePrice": "Set a single price for the whole service. Great for jobs with a clear scope.",
+			"chargeByHour": "Charge by the hour. Perfect for ongoing or flexible work.",
+			"emptyMessage": "No items found",
+			"filters": "Filters",
+			"noImage": "No Image",
+			"noPostYet": "No posts yet",
+			"Activity": "Activity",
+			"Services": "Services",
+			"Reviews": "Reviews",
+			"applicants": "Applicants",
+			"memberSince": "Member since {{sinceMember}}",
+			"sendProposal": "Send Proposal",
+			"yourApplication": "Your Application",
+			"applyToThis": "Apply to this Job",
+			"noUserGiven": "No user was given",
+			"noUserIdProvided": "No user ID provided",
+			"verifyEmailBeforeSending": "Please verify your email before sending messages.",
+			"verifyEmailAccessing": "Please verify your email before accessing {{generic}}.",
+			"subtitleBook": "Message this professional to discuss details and availability.",
+			"bookNow": "Book Now",
+			"updateContract": "Update Contract Status",
+			"date": "Date",
+			"amount": "Amount",
+			"nameRequired": "Name is required",
+			"allSet": "You are all set!",
+			"emailVerificationLabel": "Verify your email to start receiving account and activity updates here.",
+			"notificationLockedMessage": "Notifications are locked until your email is verified",
+			"notifications": "notifications",
+			"inbox": "inbox",
+			"onceEmailFree": "Once your email is verified, your conversations will appear here.",
+			"letsCreateTitle": "Let's create your first service!",
+			"letsCreateDescription": "Tap the plus button to offer your service and start getting clients.",
+			"aboutu": "About you",
+			"quoteSetupOne": "After setup, add services with pricing, photos, and certifications from your vendor profile.",
+			"complete": "COMPLETE",
+			"fetchingLocation": "Fetching your location…",
+			"tapAnywhere": "Tap anywhere or drag the pin to adjust",
+			"enableLocationAccess": "Enable location access to pin your service area",
+			"customerNearby": "Customers nearby will find you based on this location.",
+			"stripeUses": "Fixxy uses Stripe to send payouts securely to your bank account.",
+			"payoutMethod": "PAYOUT METHOD: SET UP VIA STRIPE",
+			"paymentSetUp": "Set up payments",
+			"viewProfile": "View my profile",
+			"professional": "Professional",
+			"thisProfessional": "this professional",
+			"theirLocation": "their location",
+			"chatWith": "Chat with",
+			"portfolioNoPhotos": "No portfolio photos have been added yet.",
+			"portfolioNoPhotosYet": "No portfolio yet",
+			"sectionDescriptionVendor": "{{username}} covers the area around",
+			"didntFindYouNeed": "Didn't find what you need?",
+			"theVendor": "The Vendor",
+			"beFirstReview": "Be the first customer to leave feedback for this professional.",
+			"jobLocation": "Job Location",
+			"unreadCount": "{{quantity}} unread"
+		},
+		"options": {
+			"iWantToOfferServices": "I want to offer services",
+			"imLookingForServices": "I'm looking for services",
+			"justExploring": "Just exploring for now",
+			"reason": "Reason for {{reason}}",
+			"cancellation": "Cancellation",
+			"rejection": "Rejection",
+			"provideReason": "Please provide the reason for {{reason}} ...",
+			"seeWhatFixx": "See what FixxyApp has to offer",
+			"sectionDescriptionSeekServices": "{{username}} covers the area around {{city}}.  If you're nearby, send them a message to confirm availability in your area."
+		},
+		"onboarding": {
+			"offerYourServicesBadge": "OFFER YOUR SERVICES",
+			"shareYourSkills": "Share Your Skills",
+			"shareSkillsMoney": "Share your skills and earn money",
+			"findServicesBadge": "FIND SERVICES",
+			"readyToGetHelp": "Ready to get help?",
+			"joinFixxyApp": "Join FixxyApp",
+			"becomeVendor": "Become a vendor",
+			"earnMoneyWithSkills": "Earn money with \n your skills",
+			"makeExtraMoney": "Make Extra Money",
+			"connectWithLocalPros": "Connect with local professionals in minutes.",
+			"offerServicesSubtitle": "Offer your services on FixxyApp get paid safely",
+			"joinOurCommunity": "Join our community of professionals and start earning!",
+			"createFirst": "Create your first request and connect with local professionals",
+			"setHourlyRate": "Set your own hourly rate",
+			"getPaid": "Get paid when the job is completed",
+			"reachLocal": "Reach local customers near you",
+			"profileDetails": "Your profile details",
+			"mainCategory": "Main category and area",
+			"payoutDetails": "Payout details to receive money",
+			"topCat": "Top categories",
+			"results": "Results",
+			"seeFirstCustomers": "This is what customers see first — make it count.",
+			"yourHeadline": "Your headline"
+		},
+		"features": {
+			"setYourOwnRates": "Set your own rates - no fees",
+			"workWithClients": "Work with clients in your area",
+			"getPaidSecurely": "Get paid securely for your work",
+			"buildYourReputation": "Build your reputation and grow",
+			"findTrustedPros": "Find trusted professionals nearby",
+			"postYourRequest": "Post your request in minutes",
+			"compareVerifiedProviders": "Compare verified providers"
+		},
+		"welcome": {
+			"title": "Welcome to FixxyApp!",
+			"findTrustedHelp": "Find trusted help nearby",
+			"subtitle": "See trusted pros near you · pay safely through Fixxy escrow",
+			"findOfferTrusted": "Find & offer trusted services easily with Fixxy!"
+		},
+		"actionMenu": {
+			"editPost": "Edit Post",
+			"closePausePost": "Close/Pause Post",
+			"republishPost": "Re-publish Post",
+			"deletePost": "Delete Post"
+		},
+		"contractList": {
+			"hired": "Hired",
+			"contractMenu": "Contract Amount"
+		},
+		"sortOptions": {
+			"distanceRating": "Distance & rating",
+			"newest": "Newest",
+			"topRated": "Top Rated"
+		},
+		"viewToggle": {
+			"map": "Map",
+			"list": "List"
+		},
+		"engagement": {
+			"like": "Like",
+			"comment": "Comment",
+			"save": "Save"
+		},
+		"placeholders": {
+			"whatsOnYourMind": "What's on your mind?",
+			"placeholderCat": "Plumbing, cleaning, handyman...",
+			"placeholderTitle": "e.g. Trusted house cleaner in Miami",
+			"placeholderCityNeig": "Your city or neighborhood",
+			"whatAreYouLooking": "What service are you looking for?",
+			"whatServiceYouNeed": "What service do you need?"
+		},
+		"emptyStates": {
+			"logInToSeeReviews": "Log in to see what your neighbors say",
+			"noReviewsAvailable": "No reviews available yet",
+			"noReviewsYet": "No reviews yet",
+			"noCommentsYet": "No comments yet",
+			"noGalleryPhotos": "No gallery photos available.",
+			"noJobPosts": "No Job Posts available",
+			"noServicesListed": "No services listed yet.",
+			"noApplicantsYet": "No applicants yet",
+			"noReviewsFound": "No reviews found.",
+			"noDescriptionAvailable": "No description available",
+			"noName": "No Name",
+			"noDescription": "No description",
+			"noLocation": "No Location",
+			"noComments": "No Comments",
+			"noRequestsYet": "No requests yet",
+			"noRequestsYetDescription": "Post a request and get quotes from local pros."
+		},
+		"loading": {
+			"loadingMap": "Loading map...",
+			"loadingAddresses": "Loading addresses...",
+			"loading": "Loading..."
+		},
+		"auth": {
+			"dontHaveAccount": "Don't have an account yet? ",
+			"alreadyHaveAccount": "Already have an account? "
+		},
+		"legal": {
+			"hiringOrderAgreement": "By placing your hiring order, you agree to Worki conditions of use."
+		},
+		"emailVerification": {
+			"title": "Verify your email to continue",
+			"body": "Please verify your email address to access this section.",
+			"sentTo": "Sent to {{email}}.",
+			"resendEmail": "Resend Email",
+			"iveVerified": "I've Verified"
+		}
+	},
+	"gettingStartedCard": {
+		"title": "Getting started is simple",
+		"step1": {
+			"title": "Book to send a request",
+			"description": "Tap Book now to share what you need and the time that works best for you."
+		},
+		"step2": {
+			"title": "Confirm details in chat",
+			"description": "The professional can accept your request, answer questions, and coordinate availability with you."
+		},
+		"step3": {
+			"title": "You decide when to pay",
+			"description": "There are no charges when you book. Pay in the app only when you are ready to move forward."
+		}
+	},
+	"serviceStepModal": {
+		"submitButtonText": "Save service",
+		"step1": {
+			"title": "Name this service",
+			"subtitle": "Give it a clear title and describe exactly what the client gets.",
+			"titleLabel": "Service title",
+			"titlePlaceholder": "e.g. Oil change, Deep cleaning",
+			"descriptionLabel": "What's included",
+			"descriptionPlaceholder": "Describe what's covered, how long it takes, and any limitations."
+		},
+		"step2": {
+			"title": "How do you charge for this service?",
+			"subtitle": "You can always update this later."
+		},
+		"step3": {
+			"titleHourly": "What is your hourly rate?",
+			"titleFixed": "What is the price for this service?",
+			"subtitle": "You can always update this later."
+		},
+		"step4": {
+			"title": "Add a photo of your work",
+			"subtitle": "A photo of real work builds trust and gets more bookings. Optional.",
+			"photoLabel": "Photo"
+		}
+	},
+	"budgetTypes": {
+		"fixed": {
+			"label": "Fixed price",
+			"description": "Clients know the exact cost upfront."
+		},
+		"hourly": {
+			"label": "Hourly rate",
+			"description": "You charge per hour of work."
+		},
+		"negotiable": {
+			"label": "Negotiable",
+			"description": "Price is discussed directly with each client."
+		}
+	},
+	"exploreScreen": {
+		"title": "Explore",
+		"subtitle": "See trusted pros near you · pay safely through Fixxy escrow",
+		"prosInArea": "{{count}} Pros in this area",
+		"prosNearYou": "{{count}} Pros near you",
+		"allProviders": "All providers",
+		"categoryProviders": "{{category}} providers",
+		"noProviders": {
+			"title": "No providers found",
+			"description": "Try a different category or move the map to search another area."
+		},
+		"securePayment": {
+			"title": "SECURE PAYMENT VIA FIXXY",
+			"description": "All transactions are protected and funds are held until the job is complete."
+		},
+		"topRated": "Top rated near you",
+		"toggle": {
+			"map": "Map",
+			"list": "List"
+		},
+		"sort": "Distance & rating",
+		"authMessage": "You should be logged in to send messages.",
+		"verificationMessage": "Please verify your email before sending messages."
+	},
+	"categories": {
+		"all": "All",
+		"electrician": "Electrician",
+		"mechanic": "Mechanic",
+		"plumber": "Plumber",
+		"networking": "Networking",
+		"locksmith": "Locksmith",
+		"rides": "Rides",
+		"babysitter": "Babysitter",
+		"teacher": "Teacher",
+		"beauty": "Beauty",
+		"handyman": "Handyman",
+		"petCare": "Pet Care",
+		"houseCleaning": "House Cleaning",
+		"landscaping": "Landscaping",
+		"towingServices": "Towing Services",
+		"tutoring": "Tutoring",
+		"photography": "Photography",
+		"foodHospitality": "Food&Hospitality",
+		"eventsEntertainment": "Events & Entertainment",
+		"autoCare": "Auto Care",
+		"other": "Other"
+	},
+	"tabs": {
+		"jobs": "Jobs",
+		"myServices": "My Services",
+		"messages": "Messages",
+		"notifications": "Notifications",
+		"profile": "Profile",
+		"login": "Login",
+		"home": "Home",
+		"explore": "Explore",
+		"UserServices": "My Services",
+		"MessagesScreen": "Messages",
+		"Notifications": "Notifications",
+		"Account": "Account",
+		"FeedMap": "Map",
+		"NeighborhoodReviews": "Neighborhood Reviews",
+		"TransactionDetail": "Transaction Detail",
+		"Activity": "Activity",
+		"SignUp": "Sign up",
+		"ForgotPass": "Forgot Password?",
+		"Bookings": "Bookings",
+		"ServiceCreated": "Service Created",
+		"PostJobOffer": "Post a Job Offer",
+		"OfferService": "Offer a Service",
+		"ApplicationDetails": "Application Details",
+		"BookingDetail": "Booking Detail",
+		"Saved": "Saved",
+		"PostDetail": "Post Detail",
+		"OrderCompleted": "Order Completed",
+		"MyRequests": "My Requests",
+		"ContractDetail": "Contract Detail",
+		"Payments": "Payments",
+		"myApplications": "My Applications",
+		"VerifyEmailPosting": "Please verify your email before viewing your requests."
+	},
+	"auth": {
+		"loginRequired": "You should be logged in to access this section.",
+		"verificationRequired": "Please verify your email before accessing messages or notifications."
+	},
+	"verify": {
+		"profile": "Please verify your email before updating your profile.",
+		"saved": "Please verify your email before viewing your saved items.",
+		"bookings": "Please verify your email before viewing your bookings.",
+		"services": "Please verify your email before offering your services.",
+		"applications": "Please verify your email before viewing your applications.",
+		"payments": "Please verify your email before accessing payments."
+	},
+	"menu": {
+		"support": "Support",
+		"legal": "Terms and Conditions",
+		"signOut": "Sign Out",
+		"deleteAccount": "Delete Account",
+		"version": "Version {{version}}"
+	},
+	"support": {
+		"title": "Support",
+		"emailSubject": "Fixxy Support",
+		"emailBody": "Hi Fixxy Support,\n\nI need help with:\n\n---\nUser: {{name}}\nEmail: {{email}}\nUUID: {{uuid}}\nProfile: {{profile}}\nApp Version: {{appVersion}}\nPlatform: {{platform}}\n---\n",
+		"fallback": "Unable to open an email app right now. Please contact us at {{email}}"
+	},
+	"deleteAccount": {
+		"title": "Delete Account",
+		"confirm": "Are you sure you want to delete your account? This action cannot be undone.",
+		"reauthTitle": "Re-authentication Required",
+		"reauthMessage": "To delete your account, you need to re-authenticate.",
+		"reauthRequired": "For security reasons, please sign out and sign in again before deleting your account.",
+		"successTitle": "Account Deleted",
+		"successMessage": "Your account has been successfully deleted.",
+		"genericError": "An error occurred while deleting your account."
+	},
+	"common": {
+		"ok": "OK",
+		"cancel": "Cancel",
+		"delete": "Delete",
+		"error": "Error",
+		"success": "Success"
+	},
+	"notification": {
+		"haventYet": "No notifications yet",
+		"marking": "Marking...",
+		"markAllRead": "Mark all as read"
+	}
+}
