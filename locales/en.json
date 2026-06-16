@@ -1301,6 +1301,8 @@
 		"petCare": "Pet Care",
 		"houseCleaning": "House Cleaning",
 		"landscaping": "Landscaping",
+		"cleaning": "Cleaning",
+		"gardening": "Gardening",
 		"towingServices": "Towing Services",
 		"tutoring": "Tutoring",
 		"photography": "Photography",
@@ -1389,5 +1391,30 @@
 		"haventYet": "No notifications yet",
 		"marking": "Marking...",
 		"markAllRead": "Mark all as read"
+	},
+	"permission": {
+		"sectionTitle": "Preferences",
+		"status": {
+			"enabled": "Enabled",
+			"disabled": "Disabled",
+			"notSet": "Not set",
+			"checking": "Checking…"
+		},
+		"common": {
+			"cancel": "Cancel",
+			"openSettings": "Open Settings"
+		},
+		"notifications": {
+			"label": "Push Notifications",
+			"description": "Alerts for messages, bookings, and updates",
+			"alertTitle": "Notifications are disabled",
+			"alertBody": "To receive alerts for messages and bookings, enable notifications for Fixxy in your device settings."
+		},
+		"location": {
+			"label": "Location",
+			"description": "Used to show services near you",
+			"alertTitle": "Location is disabled",
+			"alertBody": "To find services near you, enable location access for Fixxy in your device settings."
+		}
 	}
 }

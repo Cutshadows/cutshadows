@@ -160,7 +160,7 @@
 	},
 	"onboarding": {
 		"stepOne": {
-			"title": "Felicitaciones {{userName}}!! Ya estas listo",
+			"title": "Felicitaciones {{ userName }}!! Ya estas listo",
 			"description": "¡Nos alegra tenerte aquí! Descubramos cómo podemos ayudarle hoy."
 		},
 		"welcome": {
@@ -1392,5 +1392,29 @@
 		"haventYet": "No hay notificaciones aun",
 		"marking": "Marcando...",
 		"markAllRead": "Marcar todos como leídos"
+	},
+	"permission": {
+		"sectionTitle": "Preferencias",
+		"status": {
+			"enabled": "Activado",
+			"disabled": "Desactivado",
+			"notSet": "Sin configurar",
+			"checking": "Verificando…"
+		},
+		"common": {
+			"openSettings": "Abrir Ajustes"
+		},
+		"notifications": {
+			"label": "Notificaciones push",
+			"description": "Alertas de mensajes, reservas y novedades",
+			"alertTitle": "Las notificaciones están desactivadas",
+			"alertBody": "Para recibir alertas de mensajes y reservas, activa las notificaciones de Fixxy en los ajustes de tu dispositivo."
+		},
+		"location": {
+			"label": "Ubicación",
+			"description": "Usada para mostrarte servicios cercanos",
+			"alertTitle": "La ubicación está desactivada",
+			"alertBody": "Para encontrar servicios cerca de ti, activa el acceso a la ubicación de Fixxy en los ajustes de tu dispositivo."
+		}
 	}
 }
